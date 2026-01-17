@@ -1,0 +1,63 @@
+/* Center everything */
+.profile-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #172b85, #764ba2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Card */
+.profile-card {
+  background: white;
+  width: 320px;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Image */
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #667eea;
+  margin-bottom: 15px;
+}
+
+/* Text */
+.profile-name {
+  margin: 10px 0 5px;
+  font-size: 22px;
+  color: #333;
+}
+
+.profile-bio {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.profile-btn {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.profile-btn:hover {
+  opacity: 0.85;
+}
